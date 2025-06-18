@@ -1,0 +1,33 @@
+// Calendar
+"calendar.weekday.monday" = "Mo";
+"calendar.weekday.tuesday" = "Tu";
+"calendar.weekday.wednesday" = "We";
+"calendar.weekday.thursday" = "Th";
+"calendar.weekday.friday" = "Fr";
+"calendar.weekday.saturday" = "Sa";
+"calendar.weekday.sunday" = "Su";
+
+"calendar.close" = "Close";
+"calendar.today" = "Today";
+"calendar.add_event" = "Add Event";
+
+// Event Details
+"event.title" = "Title";
+"event.description" = "Description";
+"event.date" = "Date";
+"event.duration" = "Duration";
+"event.save" = "Save";
+"event.cancel" = "Cancel";
+"event.delete" = "Delete";
+"event.edit" = "Edit";
+"event.attendees" = "Attendees";
+"event.contact.chat" = "Message";
+"event.contact.call" = "Call";
+"event.contact.notifications" = "Reminders";
+
+// Views
+"view.agenda" = "Agenda";
+"view.timeline" = "Timeline";
+
+// Attendees
+"attendee.unknown" = "Unknown Attendee";

@@ -1,0 +1,33 @@
+// Calendar
+"calendar.weekday.monday" = "Po";
+"calendar.weekday.tuesday" = "Ut";
+"calendar.weekday.wednesday" = "St";
+"calendar.weekday.thursday" = "Št";
+"calendar.weekday.friday" = "Pi";
+"calendar.weekday.saturday" = "So";
+"calendar.weekday.sunday" = "Ne";
+
+"calendar.close" = "Zavrieť";
+"calendar.today" = "Dnes";
+"calendar.add_event" = "Pridať udalosť";
+
+// Event Details
+"event.title" = "Názov";
+"event.description" = "Popis";
+"event.date" = "Dátum";
+"event.duration" = "Trvanie";
+"event.save" = "Uložiť";
+"event.cancel" = "Zrušiť";
+"event.delete" = "Vymazať";
+"event.edit" = "Upraviť";
+"event.attendees" = "Účastníci";
+"event.contact.chat" = "Správa";
+"event.contact.call" = "Zavolať";
+"event.contact.notifications" = "Pripomienky";
+
+// Views
+"view.agenda" = "Agenda";
+"view.timeline" = "Časová os";
+
+// Attendees
+"attendee.unknown" = "Neznámy účastník";
