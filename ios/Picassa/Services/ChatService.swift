@@ -107,23 +107,8 @@ actor ChatService {
         // Aktualizujeme správu s ID
         try await messageRef.setData(from: messageWithId)
         print("DEBUG: Message saved with ID:", messageRef.documentID)
-        
-        // Aktualizujeme hlavný dokument chatu len ak nie je to systémová správa
-        if message.type != .system {
-            print("DEBUG: Updating lastMessage in chat document")
-            try await db.collection("chats").document(chatId).setData([
-                "lastMessage": [
-                    "senderId": message.senderId,
-                    "text": message.text,
-                    "timestamp": message.timestamp,
-                    "type": message.type.rawValue,
-                    "subtype": message.subtype.rawValue
-                ],
-                "lastMessageAt": message.timestamp
-            ], merge: true)
-        } else {
-            print("DEBUG: Skipping lastMessage update for system message")
-        }
+
+        // Aktualizácia lastMessage je implementovaná v triggeri v Firebase Functions
     }
     
     func createChat(between userIds: [String]) async throws -> Chat {
